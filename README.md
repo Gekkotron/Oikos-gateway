@@ -1,4 +1,4 @@
-# oikos-gateway
+# Oikos-gateway
 
 [![CI](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml)
 [![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Gekkotron/oikos-gateway/badges/coverage.json)](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml)
@@ -24,7 +24,7 @@ An end-to-end encrypted gateway for HTTP APIs and MQTT communications, using AES
 
 ```
 ┌─────────────┐    Encrypted     ┌─────────────────────┐    Unencrypted    ┌──────────────┐
-│   Client    │ ───────────────> │    oikos-gateway    │ ────────────────> │  HTTP APIs   │
+│   Client    │ ───────────────> │    Oikos-gateway    │ ────────────────> │  HTTP APIs   │
 │ (Your App)  │ <─────────────── │                     │ <──────────────── │  (Any Server)│
 └─────────────┘    AES-GCM       └─────────────────────┘                    └──────────────┘
                                             │
