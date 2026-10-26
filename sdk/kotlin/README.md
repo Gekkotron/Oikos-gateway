@@ -16,7 +16,7 @@ dependencyResolutionManagement {
 
 // build.gradle.kts
 dependencies {
-    implementation("com.github.Gekkotron.Athena-HttpMqttGateway:athena-gateway-client:v1.3")
+    implementation("com.github.Gekkotron.oikos-gateway:athena-gateway-client:v1.3")
 }
 ```
 
@@ -115,8 +115,8 @@ The client keeps your timeouts for `http`/`publish`; streams use a 45 s read tim
 If you add more Athena artifacts later, the BOM keeps them on one version:
 
 ```kotlin
-implementation(platform("com.github.Gekkotron.Athena-HttpMqttGateway:athena-gateway-bom:v1.3"))
-implementation("com.github.Gekkotron.Athena-HttpMqttGateway:athena-gateway-client")
+implementation(platform("com.github.Gekkotron.oikos-gateway:athena-gateway-bom:v1.3"))
+implementation("com.github.Gekkotron.oikos-gateway:athena-gateway-client")
 ```
 
 ## License
