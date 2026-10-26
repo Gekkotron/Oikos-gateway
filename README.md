@@ -1,8 +1,8 @@
 # Oikos-gateway
 
-[![CI](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Gekkotron/oikos-gateway/badges/coverage.json)](https://github.com/Gekkotron/oikos-gateway/actions/workflows/ci.yml)
-[![SDK coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Gekkotron/oikos-gateway/badges/sdk-coverage.json)](sdk/kotlin/README.md)
+[![CI](https://github.com/Gekkotron/Oikos-gateway/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Gekkotron/Oikos-gateway/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Gekkotron/Oikos-gateway/badges/coverage.json)](https://github.com/Gekkotron/Oikos-gateway/actions/workflows/ci.yml)
+[![SDK coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Gekkotron/Oikos-gateway/badges/sdk-coverage.json)](sdk/kotlin/README.md)
 
 An end-to-end encrypted gateway for HTTP APIs and MQTT communications, using AES-GCM. Ship home-automation traffic over the public internet through a single encrypted tunnel — no per-service certificates, no exposed brokers.
 
@@ -400,7 +400,7 @@ The SSE stream will receive encrypted messages with the following types:
 Use the official client library, [`athena-gateway-client`](sdk/kotlin/README.md):
 
 ```kotlin
-implementation("com.github.Gekkotron.oikos-gateway:athena-gateway-client:v1.4")
+implementation("com.github.Gekkotron.Oikos-gateway:athena-gateway-client:v1.4")
 ```
 
 Fetch binary files (camera snapshots, clips) with `download()` (needs gateway v1.3+):
